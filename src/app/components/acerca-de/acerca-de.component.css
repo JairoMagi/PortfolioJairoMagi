@@ -6,6 +6,34 @@ div{
     background-color: #30085e;
     text-align: center;
 }
+/*Foto de Perfil */
+@media (min-width: 576px) {
+    #fotoDePerfil {
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px
+    }
+}
+
+@media (max-width: 575px) {
+    #fotoDePerfil {
+        position:absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 300px
+    }
+}
+
+/*Etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
 
 h1{
     color:antiquewhite;

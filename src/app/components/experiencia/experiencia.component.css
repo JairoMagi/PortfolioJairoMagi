@@ -1,0 +1,24 @@
+.row{
+    padding: 25px
+}
+
+div{
+    background-color: #30085e;
+    text-align: center;
+}
+
+h1{
+    color:antiquewhite;
+}
+
+h1,h3{
+    display: inline;
+}
+
+h3{
+    color:antiquewhite;
+}
+
+p{
+    color: antiquewhite;
+}
